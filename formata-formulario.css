@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+body {
+ font-family: "Roboto Condensed";
+ margin: 0;
+}
+
+h1 {
+ border-bottom: 1px solid #061539;
+ background-color: #4F628E;
+ color: #fff;
+ margin: 0;
+ text-align: center;
+ margin-bottom: 30px;
+}
+
+fieldset {
+ border: 1px solid #888;
+ width: 50%;
+ margin: 20px auto;
+ background-color: rgba(120, 135, 171, 0.2);
+ box-shadow: 5px 5px 5px rgba(100, 100, 100, 0.5);
+ border-radius: 7px;
+}
+
+label.alinha {
+ width: 300px;
+ display: inline-block; /*converte o elemento inline - que não obedece a largura - para nível de bloco, obrigando o navegador a aplicar a mesma largura para todos os labels*/
+ margin-bottom: 10px;
+ text-align: right;
+}
+
+/*seletores de atributos*/
+input[name*="aluno"] {
+ width: 300px;
+}
+
+button {
+ width: 300px;
+ height: 50px;
+ font-family: "Roboto Condensed";
+ font-size: 18px;
+ font-weight: bold;
+ display: block;
+ margin: auto;
+ margin-top: 20px;
+ margin-bottom: 30px;
+}
+
+p {
+ border: 1px solid #888;
+ background-color: #4F628E;
+ color: #fff;
+ text-align: center;
+ width: 70%;
+ margin: auto;
+}
+
+span {
+ font-weight: bold;
+ font-style: italic;
+}
+
+/*formatação do CSS em relação a tabelas*/
+table {
+ border: 1px solid;
+ width: 50%;
+ margin: 20px auto;
+ background-color: #e1e1e1;
+ height: 400px;
+ /*border-spacing: 15px; esta propriedade controla o espaço entre duas células quaisquer ou entre uma célula e a borda da tabela*/
+ border-collapse: collapse; /*retira o espaço entre células*/
+}
+
+th, td {
+ border: 1px solid;
+ font-size: 22px;
+ text-align: center; 
+}
+
+th {
+ background-color: #4F628E;
+ color: #fff;
+}
+
+caption {
+ caption-side: bottom; /*muda a legenda para o rodapé da tabela*/
+ margin-top: 15px;
+ color: #333;
+ /*text-align: left; alinha o texto da legenda*/
+}
+
