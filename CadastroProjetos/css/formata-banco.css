@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+body {
+ margin: 0;
+ font-family: Oswald;
+}
+
+h1 {
+ margin: 0;
+ text-align: center;
+ border-bottom: 1px solid #000;
+ background-color: #283739; 
+ color: #fff;
+ top: 0;
+ position: sticky;
+ margin-bottom: 30px;
+}
+
+fieldset {
+ width: 45%;
+ margin: 20px auto;
+ background: #e0e0e0; 
+ border-radius: 10px;
+ box-shadow: 5px 5px 5px #283739; 
+ padding: 30px;
+ padding-bottom: 10px;
+}
+
+label.alinha {
+ display: inline-block;
+ width: 200px;
+ text-align: right;
+ margin-bottom: 20px;
+}
+
+input, button, textarea {
+ font-family: Oswald;
+ font-size: 16px;
+}
+
+button {
+ width: 250px;
+ font-size: 18px;
+ margin-left: 30px;
+ height: 40px;
+ display: block;
+ margin: 15px auto;
+ margin-bottom: 5px;
+}
+
+p {
+ background: #e0e0e0; 
+ border: 1px solid #283739;
+ width: 50%;
+ margin: 20px auto;
+ text-align: center;
+}
+
+span {
+ font-weight: bold;
+ color:  #2c5d63; 
+}
+
+table {
+ background: #e0e0e0; 
+ border: 1px solid #2c5d63; 
+ margin: 30px auto;
+ width: 60%;
+ height: 300px;
+ border-collapse: collapse; /*tira o espaço entre células*/
+}
+
+td, th {
+ border: 1px solid #2c5d63; 
+}
+
+th {
+ font-size: 18px;
+ background: #a2c11c; 
+}
+
+td {
+ text-align: center;
+}
+
+tr:nth-child(even) {
+ background: #fff;
+}
+
+textarea {
+ resize: none;
+ width: 200px;
+ height: 100px;
+ vertical-align: top; /*esta propriedade cuida do alinhamento de texto na vertical. Valores possíveis: bottom (padrão), middle e top*/
+}
